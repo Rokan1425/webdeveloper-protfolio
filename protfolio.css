@@ -34,13 +34,13 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url(./portfolio-resources/images/header_bg.png);
+    background-image: url('./portfolio-resources/images/header_bg.png'), url('portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
-    /* padding: 50px 150px; */
+    /* padding-bottom: 30px; */
     margin-left: 200px;
     display: flex;
     align-items: center;
@@ -50,10 +50,16 @@ nav a {
 
 .banner-content {
     max-width: 500px;
+    height: 620px;
 }
 
 .profile-picture {
-    width: 500px;
+    /* width: 500px; */
+    /* height: 620px; */
+    margin-right: 60px;
+    margin-top: -60px;
+    
+    
 }
 
 .text-primary {
